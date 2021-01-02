@@ -13,7 +13,7 @@ Launch the program as shown below :
 
 ```> help```
 
-<img src="/images/Help.png" height="150">
+<img src="/images/Help.png">
 
 ```> frequency```
 
@@ -23,15 +23,15 @@ Launch the program as shown below :
 
 So you can replace this letter ```> replace o e```
 
-<img src="/images/Replace.png" height="150">
+<img src="/images/Replace.png">
 
 You can also look for a specific ciphered word in a wordlist
 (```find Fzhf'b T__t's``` if you already know clear letters, output: "that's")
 
-<img src="/images/Find.png" height="150">
+<img src="/images/Find.png">
 
 and swap this whole word
 
 ```> swap aocockoa remember```
 
-<img src="/images/Swap.png" height="150">
+<img src="/images/Swap.png">
