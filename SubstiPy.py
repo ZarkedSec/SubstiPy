@@ -264,7 +264,14 @@ yn_autocompletion = input("\nDo you want to try the autocompletion? [Y/N] (Defau
 if yn_autocompletion == "Y" or yn_autocompletion == "YES":
 
 	ALPHABET = list(string.ascii_uppercase)
-	FILE = (open("src/english_quadgrams.txt","r").read()).split("\n")
+	lang = ""
+	while not(lang=="EN" or lang=="FR") :
+		system("clear && printf '\e[3J'")
+		lang = (input("\nThe ciphered text is in English/French? [fr/en] : ")).upper()
+	if lang=="EN":
+		FILE = (open("src/english_quadgrams.txt","r").read()).split("\n")
+	elif lang=="FR":
+		FILE = (open("src/french_quadgrams.txt","r").read()).split("\n")
 
 	text = autocompletion.RighFormat(original_text)
 	QUADGRAMS, N = autocompletion.QuadgramsN(FILE)
