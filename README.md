@@ -13,7 +13,7 @@ Launch the program as shown below :
 
 ```> help```
 
-![](./images/Help.png")
+![](./images/Help.png)
 
 ```> frequency```
 
